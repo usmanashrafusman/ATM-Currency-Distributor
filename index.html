@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <div class="d-flex">
+
+        <div class="d-flex jusC-cen inputDiv" style="align-items: center; height: 100vh;">
+            <h4 class="heading">Enter Amount To Debit</h4>
+            <input id="amount" type="number">
+
+            <select name="currency" id="prefCur" style="margin: 10px 0px;">
+                <option value="500">Rs.500</option>
+                <option value="100">Rs.100</option>
+                <option value="50">Rs.50</option>
+                <option value="20">Rs.20</option>
+                <option value="10">Rs.10</option>
+                <option value="5">Rs.5</option>
+                <option value="1">Rs.1</option>
+            </select>
+            <button id="debit" class="btn btn-primary">Debit Amount</button>
+        </div>
+<div class="jusC-cen" style="align-self: center;">
+  
+</div>
+    </div>
+    <!-- <div>
+        <h4 class="heading">Select Your Preffered Currency Note</h4>
+        <div class="d-flex container">
+            <div class="card" id="500">
+                <img src="./images/500.jpg" alt="Rs.5,00">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.5,00 /=</h5>
+                </div>
+            </div>
+            <div class="card" id="100">
+                <img src="./images/100.jpg" alt="Rs.1,00">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.1,00 /=</h5>
+                </div>
+            </div>
+            <div class="card" id="50">
+                <img src="./images/50.jpg" alt="Rs.50/=">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.50/=</h5>
+                </div>
+            </div>
+            <div class="card" id="20">
+                <img src="./images/20.jpg" alt="Rs.20/=">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.20 /=</h5>
+                </div>
+            </div>
+            <div class="card" id="10">
+                <img src="./images/10.jpg" alt="Rs.10/=">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.10/=</h5>
+                </div>
+            </div>
+            <div class="card" id="5">
+                <img class="coin" src="./images/5.jpg" alt="Rs.5/=">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.5/=</h5>
+                </div>
+            </div>
+            <div class="card" id="1">
+                <img class="coin" src="./images/1.jpg" alt="Rs.1/=">
+                <div class="card-body">
+                    <h5 class="card-title">Rs.1/=</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex jusC-cen">
+
+            <button id="payment" class="btn btn-primary">
+                Get Payment
+            </button>
+        </div>
+
+    </div> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
